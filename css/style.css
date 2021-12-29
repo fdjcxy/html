@@ -1,0 +1,61 @@
+body{
+    font-family: "PingFang SC", "Heiti SC", "Microsoft YaHei";
+}
+
+.box{
+    width: 1200px;
+    height: 1200px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+ }
+
+ .logo{
+    border-radius: 50%;
+}
+
+ .link-wrap{
+     display: inline-flex;
+ }
+
+.link-type{
+    width: 175px;
+    height: 30px;
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 3px;
+    margin-right: 3px;
+    font-size: 13px;
+    color: rgb(117, 98, 72);
+    background-color: rgb(255, 248, 235);
+}
+
+.link-item{
+    width: 175px;
+    height: 30px;
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+ a{
+     text-decoration: none;
+     font-size: 13px;
+     color: rgb(117, 98, 72);
+     background-color: rgb(255, 248, 235);
+ }
+
+ a:hover {
+     color: tomato;
+ }
+
+ .footer{
+     height: 50px;
+     margin-top: 30px;
+     font-size: 13px;
+     color: rgb(117, 98, 72);
+ }
